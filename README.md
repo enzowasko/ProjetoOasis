@@ -59,9 +59,10 @@ Caso queira testar o funcionamento do Dashboard, do Calendário e do Ranking ime
 ## Como Configurar no Backend (Node.js)
 Para que o seu servidor backend se conecte a este banco de dados, certifique-se de configurar as variáveis de ambiente no arquivo `.env` do seu projeto Node.js:
 
-.env
+```env
 DB_HOST=localhost
 DB_USER=seu_usuario_mysql
 DB_PASS=sua_senha_mysql
 DB_NAME=oasis_db
 PORT=3333
+```
