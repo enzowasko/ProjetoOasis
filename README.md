@@ -29,6 +29,7 @@ Siga as instruções abaixo para instalar as dependências e iniciar o servidor 
 
 **Instalar as Dependências:**
 Navegue até a pasta do backend e instale os pacotes necessários. Depois, repita o processo na pasta do frontend:
+```
 # No terminal do Backend:
 cd nome-da-pasta-backend
 npm install
@@ -36,6 +37,7 @@ npm install
 # No terminal do Frontend:
 cd nome-da-pasta-frontend
 npm install
+```
 
 **Configurar o Serviço de API:**
 Abra o arquivo localizado em `src/services/api.js` e verifique se a URL base corresponde ao endereço correto do seu servidor local ou de produção:
@@ -49,11 +51,13 @@ export default api;
 
 **Executar em Modo de Desenvolvimento:**
 Com as dependências instaladas em ambas as pastas, inicie o servidor local em cada um dos terminais:
+```
 # No terminal do Backend:
 npm run dev
 
 # No terminal do Frontend:
 npm run dev
+```
 
 A aplicação estará disponível para acesso através do endereço fornecido no terminal.
 
