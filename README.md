@@ -51,7 +51,7 @@ npm run dev
 A aplicação estará disponível para acesso através do endereço fornecido no terminal.
 
 ## Script de Criação do Banco de Dados (SQL)
-Execute o seguinte script no seu gerenciador de banco de dados (como MySQL Workbench, phpMyAdmin ou via terminal) para criar o esquema e as tabelas necessárias.
+Copie ou baixe o arquivo .sql do site no seu gerenciador de banco de dados (como MySQL Workbench, phpMyAdmin ou via terminal) para criar o esquema e as tabelas necessárias.
 
 ## Dados de Teste (Opcional)
 Caso queira testar o funcionamento do Dashboard, do Calendário e do Ranking imediatamente com dados fictícios, você pode inserir alguns registros iniciais.
