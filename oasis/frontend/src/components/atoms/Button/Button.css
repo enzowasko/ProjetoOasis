@@ -1,0 +1,22 @@
+@import '../../../styles/tokens.css';
+
+.btn-atom {
+  font-family: var(--font-family-base);
+  font-weight: bold;
+  border: var(--border-thick);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-atom.primary {
+  background-color: var(--color-accent-orange);
+  color: var(--color-brand-primary);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.btn-atom.primary:hover {
+  transform: scale(1.05);
+  background-color: var(--color-sand);
+}

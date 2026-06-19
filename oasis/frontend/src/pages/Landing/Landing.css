@@ -1,0 +1,55 @@
+.landing-container {
+  height: 100vh;
+  background: #d8ece0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-content {
+  text-align: center;
+  background: #ffffff;
+  padding: 60px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.landing-logo {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+.landing-content h1 {
+  color: #333333;
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.landing-content p {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn-comecar {
+  background: #1b4f44;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(27, 79, 68, 0.2);
+}
+
+.btn-comecar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(27, 79, 68, 0.3);
+}
