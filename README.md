@@ -28,10 +28,14 @@ Antes de iniciar a instalação, certifique-se de ter as seguintes ferramentas c
 Siga as instruções abaixo para instalar as dependências e iniciar o servidor de desenvolvimento:
 
 **Instalar as Dependências:**
-Instale os pacotes listados no arquivo `package.json` executando no terminal:
-```bash
+Navegue até a pasta do backend e instale os pacotes necessários. Depois, repita o processo na pasta do frontend:
+# No terminal do Backend:
+cd nome-da-pasta-backend
 npm install
-```
+
+# No terminal do Frontend:
+cd nome-da-pasta-frontend
+npm install
 
 **Configurar o Serviço de API:**
 Abra o arquivo localizado em `src/services/api.js` e verifique se a URL base corresponde ao endereço correto do seu servidor local ou de produção:
@@ -44,10 +48,13 @@ export default api;
 ```
 
 **Executar em Modo de Desenvolvimento:**
-Inicie o servidor local pelo terminal para visualizar o projeto no navegador:
-```bash
+Com as dependências instaladas em ambas as pastas, inicie o servidor local em cada um dos terminais:
+# No terminal do Backend:
 npm run dev
-```
+
+# No terminal do Frontend:
+npm run dev
+
 A aplicação estará disponível para acesso através do endereço fornecido no terminal.
 
 ## Script de Criação do Banco de Dados (SQL)
