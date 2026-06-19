@@ -12,11 +12,18 @@ O Oasis é uma aplicação web de produtividade baseada em conceitos de gamifica
 * **Notificações Customizadas (Toasts):** Sistema de avisos dinâmicos e assíncronos renderizados na interface para validações de formulários e confirmações de ações sem interrupção do fluxo de navegação.
 
 ## Tecnologias Utilizadas
+**Frontend:**
 * **React.js:** Biblioteca principal para construção da interface declarativa baseada em componentes.
 * **React Router DOM:** Gerenciamento de rotas e navegação interna da aplicação.
 * **Lucide React:** Conjunto de ícones vetoriais padronizados.
 * **Axios:** Cliente HTTP para comunicação e requisições assíncronas junto à API do servidor.
 * **Web Audio API:** API nativa do navegador utilizada para sintetizar frequências sonoras via código para o alarme de foco.
+
+**Backend e Banco de Dados:**
+* **Node.js:** Ambiente de execução JavaScript no servidor.
+* **Express:** Framework minimalista para criação da API RESTful e roteamento.
+* **MySQL:** Sistema de gerenciamento de banco de dados relacional.
+* **CORS:** Middleware utilizado para habilitar a comunicação segura entre o frontend e o backend operando em portas diferentes.
 
 ## Pré-requisitos
 Antes de iniciar a instalação, certifique-se de ter as seguintes ferramentas configuradas em seu ambiente local:
@@ -62,10 +69,13 @@ npm run dev
 A aplicação estará disponível para acesso através do endereço fornecido no terminal.
 
 ## Script de Criação do Banco de Dados (SQL)
-Copie ou baixe o arquivo .sql do site no seu gerenciador de banco de dados (como MySQL Workbench, phpMyAdmin ou via terminal) para criar o esquema e as tabelas necessárias.
-
+O script estrutural completo do banco de dados encontra-se no arquivo `oasis_db.sql` incluído no repositório. Para criar o esquema e as tabelas necessárias, importe este arquivo utilizando o seu gerenciador de banco de dados ou execute-o via terminal.
 ## Dados de Teste (Opcional)
-Caso queira testar o funcionamento do Dashboard, do Calendário e do Ranking imediatamente com dados fictícios, você pode inserir alguns registros iniciais.
+Caso queira testar o funcionamento do Dashboard, do Calendário e do Ranking imediatamente, o arquivo `oasis_db.sql` já possui alguns comandos `INSERT`. Alternativamente, você pode inserir um usuário base executando o seguinte comando no seu banco:
+
+```sql
+INSERT INTO usuarios (nome, email, senha, xp) VALUES ('Testador', 'teste@oasis.com', '123456', 1500);
+```
 
 ## Como Configurar no Backend (Node.js)
 Para que o seu servidor backend se conecte a este banco de dados, certifique-se de configurar as variáveis de ambiente no arquivo `.env` do seu projeto Node.js:
@@ -75,5 +85,21 @@ DB_HOST=localhost
 DB_USER=seu_usuario_mysql
 DB_PASS=sua_senha_mysql
 DB_NAME=oasis_db
+```
+
+## Contexto Acadêmico e Autoria
+
+Este projeto foi idealizado e desenvolvido por:
+**Emmanuel Antonietti Ribeiro dos Santos**
+**Enzo Wasko Amorim**
+**Juliano Cesar Emns Miranda Marcos**
+**Pedro Joslin Cavalli**
+**Vinícius Paraíso Dias**
+
+Como parte dos requisitos práticos da disciplina **Experiência Criativa: Inovando Colaborativamente**.
+
+* **Professores Orientadores:** 
+  * Glauco Vinicius de Franca Furstenberger
+  * Mateus Nunes da Silva
 PORT=3333
 ```
