@@ -28,7 +28,7 @@ Antes de iniciar a instalação, certifique-se de ter as seguintes ferramentas c
 Siga as instruções abaixo para instalar as dependências e iniciar o servidor de desenvolvimento:
 
 **Instalar as Dependências:**
-Instale os pacotes listados no arquivo `package.json` executando:
+Instale os pacotes listados no arquivo `package.json` executando no terminal:
 ```bash
 npm install
 ```
@@ -44,7 +44,7 @@ export default api;
 ```
 
 **Executar em Modo de Desenvolvimento:**
-Inicie o servidor local para visualizar o projeto no navegador:
+Inicie o servidor local pelo terminal para visualizar o projeto no navegador:
 ```bash
 npm run dev
 ```
