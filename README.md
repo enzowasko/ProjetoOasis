@@ -85,21 +85,24 @@ DB_HOST=localhost
 DB_USER=seu_usuario_mysql
 DB_PASS=sua_senha_mysql
 DB_NAME=oasis_db
+PORT=3333
 ```
 
 ## Contexto Acadêmico e Autoria
 
 Este projeto foi idealizado e desenvolvido por:
-**Emmanuel Antonietti Ribeiro dos Santos**
-**Enzo Wasko Amorim**
-**Juliano Cesar Emns Miranda Marcos**
-**Pedro Joslin Cavalli**
-**Vinícius Paraíso Dias**
+* **Emmanuel Antonietti Ribeiro dos Santos**
+  
+* **Enzo Wasko Amorim**
+  
+* **Juliano Cesar Emns Miranda Marcos**
+  
+* **Pedro Joslin Cavalli**
+  
+* **Vinícius Paraíso Dias**
 
 Como parte dos requisitos práticos da disciplina **Experiência Criativa: Inovando Colaborativamente**.
 
 * **Professores Orientadores:** 
   * Glauco Vinicius de Franca Furstenberger
   * Mateus Nunes da Silva
-PORT=3333
-```
